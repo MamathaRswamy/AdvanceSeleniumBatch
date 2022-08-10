@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is laucnhed]]>
+    </line>
+    <line>
+      <![CDATA[Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Quitted the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-08T15:54:13 IST" name="Default suite" finished-at="2022-08-08T15:54:33 IST" duration-ms="19948">
+    <groups>
+    </groups>
+    <test started-at="2022-08-08T15:54:13 IST" name="Default test" finished-at="2022-08-08T15:54:33 IST" duration-ms="19948">
+      <class name="login.ReadingDataFromExcel_Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:11 IST" name="launchBrowser" finished-at="2022-08-08T15:54:13 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is laucnhed]]>
+            </line>
+            <line>
+              <![CDATA[Window is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="NavigatingToApplication()[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:13 IST" name="NavigatingToApplication" finished-at="2022-08-08T15:54:28 IST" duration-ms="14591" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatingToApplication -->
+        <test-method signature="readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:28 IST" name="readingData" data-provider="test data" finished-at="2022-08-08T15:54:29 IST" duration-ms="949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method is-config="true" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:29 IST" name="logoutOperation" finished-at="2022-08-08T15:54:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="NavigatingToApplication()[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:29 IST" name="NavigatingToApplication" finished-at="2022-08-08T15:54:30 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatingToApplication -->
+        <test-method signature="readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:30 IST" name="readingData" data-provider="test data" finished-at="2022-08-08T15:54:30 IST" duration-ms="769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manual]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method is-config="true" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:30 IST" name="logoutOperation" finished-at="2022-08-08T15:54:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="NavigatingToApplication()[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:30 IST" name="NavigatingToApplication" finished-at="2022-08-08T15:54:31 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatingToApplication -->
+        <test-method signature="readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:31 IST" name="readingData" data-provider="test data" finished-at="2022-08-08T15:54:32 IST" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shdfbhdfs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[usrname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method is-config="true" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:32 IST" name="logoutOperation" finished-at="2022-08-08T15:54:32 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="NavigatingToApplication()[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:32 IST" name="NavigatingToApplication" finished-at="2022-08-08T15:54:32 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatingToApplication -->
+        <test-method signature="readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:32 IST" name="readingData" data-provider="test data" finished-at="2022-08-08T15:54:33 IST" duration-ms="727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DJFHBSEJH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingData -->
+        <test-method is-config="true" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:33 IST" name="logoutOperation" finished-at="2022-08-08T15:54:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readingData status=SUCCESS method=ReadingDataFromExcel_Test.readingData(java.lang.String,java.lang.String)[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="tearDownTheBrowser()[pri:0, instance:login.ReadingDataFromExcel_Test@35aea049]" started-at="2022-08-08T15:54:33 IST" name="tearDownTheBrowser" finished-at="2022-08-08T15:54:33 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Quitted the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownTheBrowser -->
+      </class> <!-- login.ReadingDataFromExcel_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
